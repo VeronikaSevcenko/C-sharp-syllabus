@@ -19,7 +19,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercise 4", "Exercise 4\Ex
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercise 5", "Exercise 5\Exercise 5.csproj", "{A02CF12A-4A0F-4535-8C86-BFF9B10EF00F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CozaLozaWoza", "CozaLozaWoza\CozaLozaWoza.csproj", "{FCE4B542-29BE-42C7-8D7F-715E98D05115}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CozaLozaWoza", "CozaLozaWoza\CozaLozaWoza.csproj", "{FCE4B542-29BE-42C7-8D7F-715E98D05115}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise 8", "Exercise 8\Exercise 8.csproj", "{6C2C994D-0CDA-4C25-AFB2-F0ACE1C930D0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{FCE4B542-29BE-42C7-8D7F-715E98D05115}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FCE4B542-29BE-42C7-8D7F-715E98D05115}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FCE4B542-29BE-42C7-8D7F-715E98D05115}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C2C994D-0CDA-4C25-AFB2-F0ACE1C930D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C2C994D-0CDA-4C25-AFB2-F0ACE1C930D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C2C994D-0CDA-4C25-AFB2-F0ACE1C930D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C2C994D-0CDA-4C25-AFB2-F0ACE1C930D0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
