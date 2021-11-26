@@ -23,6 +23,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CozaLozaWoza", "CozaLozaWoz
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise 8", "Exercise 8\Exercise 8.csproj", "{6C2C994D-0CDA-4C25-AFB2-F0ACE1C930D0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise 9", "Exercise 9\Exercise 9.csproj", "{5B2A492E-561B-4ADF-95DA-06E4696EC872}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{6C2C994D-0CDA-4C25-AFB2-F0ACE1C930D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6C2C994D-0CDA-4C25-AFB2-F0ACE1C930D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6C2C994D-0CDA-4C25-AFB2-F0ACE1C930D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B2A492E-561B-4ADF-95DA-06E4696EC872}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B2A492E-561B-4ADF-95DA-06E4696EC872}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B2A492E-561B-4ADF-95DA-06E4696EC872}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B2A492E-561B-4ADF-95DA-06E4696EC872}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

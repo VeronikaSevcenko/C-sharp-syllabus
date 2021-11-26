@@ -6,6 +6,11 @@ namespace Exercise_8
     {
         static void Main(string[] args)
         {
+            
+
+
+
+
             double minWage = 8.0;
             int maxHours = 60;
             double basePay = 0;
@@ -15,11 +20,13 @@ namespace Exercise_8
             if ((basePay < minWage) || (hoursWorked > maxHours))
             {
                 Console.WriteLine("Error");
+
             } else if (hoursWorked > 40)
             {
                 totalSalary = basePay * 40 + 1.5 * basePay * (hoursWorked - 40);
 
             } else
+
             {
                 totalSalary = basePay * hoursWorked;
             }
