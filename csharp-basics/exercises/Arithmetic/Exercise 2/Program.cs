@@ -11,8 +11,11 @@ namespace Exercise_2
         static void Main(string[] args)
         {
             int a;
+
+            Console.WriteLine("Enter any number");
+
             a = int.Parse(Console.ReadLine());
-              
+
             if(a % 2 == 0)
             {
                 Console.WriteLine("Even Number");
