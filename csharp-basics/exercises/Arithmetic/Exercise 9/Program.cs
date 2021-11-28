@@ -6,23 +6,25 @@ namespace Exercise_9
     {
         static void Main(string[] args)
         {
-            float weight, height, BMI;
+            double BMI;
+            int weight;
+            double height;
             
             Console.WriteLine("Please,write your weight");
-            weight = float.Parse(Console.ReadLine());
+            weight = int.Parse(Console.ReadLine());
 
             Console.WriteLine("Please, write your height");
-            height = float.Parse(Console.ReadLine());
+            height = double.Parse(Console.ReadLine());
 
             BMI = weight / (height * height);
 
             if (BMI < 18.5)
             {
-                Console.WriteLine("Your BMI category is : Starvation");
+                Console.WriteLine("Your BMI category is : Starvation," + "but you are so beautiful!");
             }
             else if (BMI > 25)
             {
-                Console.WriteLine("Your BMI category is : Overweight");
+                Console.WriteLine("Your BMI category is : Overweight," + "but you are so beautiful");
             }
             Console.ReadLine();
 
