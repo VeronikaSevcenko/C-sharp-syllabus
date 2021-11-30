@@ -11,17 +11,17 @@ namespace TenBillion
 
             var input = Console.ReadLine();
 
-            /*
-            todo - check if Long
-            if (?) 
+            
+            //todo - check if Long
+            if () 
             {
                 //todo - check if n is less than zero
-                if (?) 
+                if () 
                 {
                     n *= -1;
                 }
 
-                fixme
+                //fixme
                 if (?) 
                 {
                     Console.WriteLine("Number is greater or equals 10,000,000,000!");
@@ -73,7 +73,7 @@ namespace TenBillion
             {
                 Console.WriteLine("The number is not a long");
             }
-            */
+            
         }
     }
 }
