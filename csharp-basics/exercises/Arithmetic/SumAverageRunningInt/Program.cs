@@ -16,11 +16,14 @@ namespace SumAverageRunningInt
             const int lowerBound = 1;
             const int upperBound = 100;
 
-            for (var number = lowerBound; number <= upperBound; ++number) 
+            for (var number = lowerBound; number <= upperBound; ++number) // for (var i = 1; i <= 100; ++i)
             {
                 sum += number;
                 
             }
+            average = sum / 2;
+            Console.WriteLine("The Sum is : " + sum);
+            Console.WriteLine("The Average is : " + average);
         }
     }
 }

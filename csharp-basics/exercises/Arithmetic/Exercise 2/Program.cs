@@ -1,0 +1,33 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Exercise_2
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int a;
+
+            Console.WriteLine("Enter any number");
+
+            a = int.Parse(Console.ReadLine());
+
+            if(a % 2 == 0)
+            {
+                Console.WriteLine("Even Number");
+                Console.WriteLine("Bye");
+            }
+            else
+            {
+                Console.WriteLine("Odd Number");
+                Console.WriteLine("Bye");
+
+                Console.ReadKey();
+            }
+        }
+    }
+}
