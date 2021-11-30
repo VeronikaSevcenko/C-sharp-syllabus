@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrintDayInWord", "PrintDayI
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrintDayWord2", "PrintDayWord2\PrintDayWord2.csproj", "{0734BE19-AFBB-43FE-9C2A-C96349469D91}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneKeyPad", "PhoneKeyPad\PhoneKeyPad.csproj", "{375E840B-074B-4149-BA0E-CBD0F1606183}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{0734BE19-AFBB-43FE-9C2A-C96349469D91}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0734BE19-AFBB-43FE-9C2A-C96349469D91}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0734BE19-AFBB-43FE-9C2A-C96349469D91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{375E840B-074B-4149-BA0E-CBD0F1606183}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{375E840B-074B-4149-BA0E-CBD0F1606183}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{375E840B-074B-4149-BA0E-CBD0F1606183}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{375E840B-074B-4149-BA0E-CBD0F1606183}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
