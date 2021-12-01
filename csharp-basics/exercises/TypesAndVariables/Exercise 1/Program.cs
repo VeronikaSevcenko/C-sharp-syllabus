@@ -13,9 +13,6 @@ namespace Exercise_4
                 + myName + " " 
                 + "and I was born in " 
                 + myAge + ".");
-
-            Console.ReadLine();
         }
-        
     }
 }
