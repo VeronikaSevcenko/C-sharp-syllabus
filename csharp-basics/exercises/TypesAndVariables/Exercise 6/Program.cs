@@ -12,16 +12,12 @@ namespace Exercise_6
             Console.WriteLine("Enter a series of single digit numbers");
             a = Convert.ToInt32(Console.ReadLine());
 
-            
-            while (a != 0)
+            while (a > 0 )
             {
-                Sum += a % 10; 
-                a /= 10;
+                Sum += (a % 10);
+                    a /= 10;
 
-                Console.WriteLine("Sum of all the numbers: " + Sum);
-
-                Console.ReadLine();
-
+                Console.WriteLine("Sum of all numbes is {0}",Sum);
             }
         }
     }
